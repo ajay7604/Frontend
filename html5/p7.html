@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      header {
+        padding: 20px;
+        background-color: antiquewhite;
+      }
+      .menu a {
+        text-decoration: none;
+        background: slateblue;
+        color: #fff;
+        padding: 14px 16px;
+      }
+
+      .menu a:hover {
+        background-color: orangered;
+      }
+      .menu .right {
+        position: absolute;
+        right: 10px;
+        top: 6px !important;
+      }
+      .menu .right a{
+        float: left;
+        margin-left: 5px;
+      }
+      section{
+        display: flex;
+        height: 100vh;
+
+      }
+      aside{
+        background: gold;
+        color: #fff;
+        width: 10vw;
+        padding: 20px;
+
+      }
+      .center{
+        padding: 20px;
+        height: 100vh;
+      }
+
+    .center p{
+        text-align: justify;
+        word-break: break-all;
+        line-height: 25px;
+    }
+    footer{
+        background: 20px;
+        padding: 20px;
+        text-align: center;
+        color: #fff;
+    }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <a href="#" class="logo">portfolio</a>
+        <div class="right">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Mywork</a>
+          <a href="#">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <aside>left portion</aside>
+
+      <div class="center">
+        <h3>welcome to Html 5</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi cum
+          quas voluptas reprehenderit sint, tenetur ducimus accusantium facere
+          ex! Iusto harum nemo facilis adipisci. Accusantium qui expedita a
+          voluptates similique.
+        </p>
+      </div>
+
+      <aside>
+        <p>right portion</p>
+      </aside>
+    </section>
+    <footer>
+      <p>All Rights Reserved. &copy;</p>
+    </footer>
+  </body>
+</html>
