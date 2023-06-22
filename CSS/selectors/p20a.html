@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ol li:not(.p1)
+        {
+            color: blueviolet;
+            font-weight: bold;
+        }
+        ol li:before
+        {
+            content:"Mr.";
+        }
+        .tech li::before{
+            content: "My course is";
+            color: brown;
+            font-weight: bold;
+        }
+        .tech li::after{
+            content: "technology";
+            color: brown;
+            font-weight: bold;
+        
+        }
+        .tech{
+            color: rgb(10, 41, 242);
+        }
+    </style>
+</head>
+<body>
+<h3>::after and ::before</h3>
+<ul class="tech">
+    <li>html</li>
+    <li>css</li>
+    <li>js</li>
+</ul>
+<hr>
+<ol>
+    <li class="p1">ajay</li>
+    <li>makkon</li>
+    <li class="p1">kadam</li>
+</ol>
+</body>
+</html>

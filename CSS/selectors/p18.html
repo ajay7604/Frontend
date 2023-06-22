@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table , tr,td,th {
+            border:1px solid #2222;
+            border-collapse: collapse;
+        }
+        tr ,td,th{
+            padding:10px;
+
+        }
+        /* :nth-child (position) can target any child elements  */
+         
+        tr:nth-child(even)
+        {
+            background-color: #ddd;
+            color: #2222;
+        }
+         
+        tr:nth-child(odd)
+        {
+            background-color: slateblue;
+            color: #2222;
+        }
+        
+         
+        /* tr:nth-child(4)
+        {
+            background-color: red;
+            color: #2222;
+        } */
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>name</th>
+            <th>email</th>
+            <th colspan="2">mobile</th>
+        </tr>
+        <tr>
+            <td>ajay</td>
+            <td>maity@gmail.com</td>
+            <td>9868759468</td>
+            <td>9867542152</td>
+        </tr>
+        <tr>
+            <td>vijay</td>
+            <td>sukla@gmail.com</td>
+            <td>8868759468</td>
+            <td>9844542152</td>
+        </tr>
+        <tr>
+            <td>makkon</td>
+            <td>makkon@gmail.com</td>
+            <td>9868759468</td>
+            <td>9867542152</td>
+        </tr>
+        <tr>
+            <td>abhijit</td>
+            <td>abhijit@gmail.com</td>
+            <td>9858759468</td>
+            <td>9867547152</td>
+        </tr>
+    </table>
+</body>
+</html>
